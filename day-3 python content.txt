@@ -1,0 +1,95 @@
+Day_3 content 
+   List:python is an advanced array operation is called list.
+  functions of list:
+ ->Append()-add an element to the end of the list
+ ->Extend()-add all elements of a list to another list
+ ->Insert()-insert on item at defined index
+ ->Remove()-remove  an element in the list
+ ->Pop()  - remove & return an element from the list
+ ->Index()-return the index of first matched item
+ ->Clear()-remove all item from list
+ ->Count()-returns the count of the number of items
+ ->Sort() - sort items in ascending order
+ ->Reverse()-reversev the order of items in list
+ ->Copy() -returns a shallow copy of list
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   List Comprehension:
+  
+***numbers=[elements for elements in "Great Afternoon"]
+print(numbers)
+
+Output:
+['G', 'r', 'e', 'a', 't', ' ', 'A', 'f', 't', 'e', 'r', 'n', 'o', 'o', 'n']
+
+
+***#can create list using existing list
+L=["hyd","vizag","chennai","vijayawada"]
+city=[]
+for n in L:
+    if "v" in n:
+        city.append(n)
+print(city)
+Output:
+['vizag', 'vijayawada']
+
+***L1=[2**x for x in range(2,10)]
+print(L1)
+
+***L2=[a for a in range (100,201,20)]
+print(L2)
+
+***L3=[1,2,3,4,5,6]
+   L4=[i for i in L3 if (i<5)]
+    print(L4)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Set Operations:
+  S.add(element)
+  S.update([20,40])
+  S,discrad(element)
+  S.remove(element).....get error is element not present
+  S.Union[(s1|s2)\(s1.union(s2))]
+  S.intersection([s1&s2]\[s1.intersection(s2)])
+  S.difference[(s1-s2)\[s1.difference(s2)])
+  S.issuperset
+  S.symmetric_difference([s1^s2]\[s1.symmetric_difference])
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tuple:V
+()
+*It is ordered.
+methods.....Count and index
+count.....elements no.of occurrence
+Index.....Returns elements index
+
+Example:
+ t=(2,4,2,10.5,"ice")
+type(t)
+<class 'tuple'>
+t.count(2)
+2
+t.index(4)
+1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dictionary:
+ Dictionary contains with two units keys, values & items.
+ *keys must be unique
+Example:
+a={1:"one",2:"two"}
+a
+{1: 'one', 2: 'two'}
+type(a)
+<class 'dict'>
+a.keys()
+dict_keys([1, 2])
+a.values()
+dict_values(['one', 'two'])
+a.items()
+dict_items([(1, 'one'), (2, 'two')])
+
+
+
+
+
+
+ 
