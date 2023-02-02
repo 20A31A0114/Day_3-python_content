@@ -1,1 +1,1 @@
-# Day_3-python_content
+# Day_3-python_training
